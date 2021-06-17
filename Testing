@@ -1,0 +1,9 @@
+Input: a training set of observations, each labelled with one class label.
+Output: a model (classifier) which assigns a class to each observation based on the other attributes.
+The tuples (observations, samples) are partitioned in training set + test set.
+
+Classification is performed in two steps:
+training - build the model from training set
+test - check accuracy of the model using test set
+The model can be used to predict the class of new observations, for which the class label is missing or unknown. 
+Performance Metrics: confusion matrix, accuracy, precision, specificity, F1 score etc. 
